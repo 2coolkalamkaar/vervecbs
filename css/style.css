@@ -1094,6 +1094,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 80px;
+  margin-top: 0;
 }
 
 .contact .info-box {
@@ -1343,7 +1344,7 @@ section {
 .project{
   min-height:80vh;
   background-image: url(../cta-bg.jpg);
-  padding: 2rem;
+  margin-bottom: 0;
 }
 
 .project .heading{
@@ -1357,8 +1358,8 @@ section {
 }
 
 .project .box-container .box{
-  height:30rem;
-  width:40rem;
+  height:20rem;
+  width:30rem;
   border-radius: .5rem;
   margin:1.5rem;
   overflow: hidden;;
@@ -1390,9 +1391,9 @@ section {
 .infocols{
   padding: 6rem;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap : 10rem;
+  justify-content: space-evenly;
+  width: 100vw;
+
 }
 
 .column1, .column2{ 
@@ -1402,11 +1403,12 @@ section {
   flex-wrap: wrap;
   margin-top: 5rem;
   padding-bottom: 6rem;
-  width : 30rem;
-  height : 45rem;
+  padding: 2rem;
+  width : 25vw;
+  min-height : 45rem;
   text-align: center;
   background-color: #a173e5;
-  border-radius: 7rem;
+  border-radius: 3rem;
   gap : 2rem;
 }
 
@@ -1444,7 +1446,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap : 2rem;
+  gap : 6rem;
 }
 
 
@@ -1470,10 +1472,12 @@ section {
 
 .Manthan.bg-image {
   position: relative;
-  background-image: url('../Pic1.jpeg');
+  background-image: url('../Associate\ Sponsors.png');
   background-size: cover;
   background-position: center;
+  
 
+}
 
 .Manthan.bg-image::before {
   content: '';
@@ -1482,11 +1486,20 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../group.jpg');
+  background-image: url('../Associate\ Sponsors.png');
   background-size: cover;
   background-position: center;
   z-index: -1;
+  
 }
 
 
+
+
+.heading.bg-white {
+  background-color: aliceblue;
+  color: #000;
+  display: inline-block;
+  padding: 4px;
+  letter-spacing: normal;
 }
