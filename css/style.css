@@ -286,7 +286,7 @@ h6 {
   visibility: visible;
 }
 
-@media screen and  (max-width: 1366px) {
+@media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -308,7 +308,7 @@ h6 {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -472,13 +472,13 @@ h6 {
   background: rgba(255, 255, 255, 0.15);
 }
 
-@media  screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media screen and   (max-width: 768px) {
+@media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -567,7 +567,7 @@ section {
   content: "/";
 }
 
-@media screen and  (max-width: 768px) {
+@media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -664,13 +664,13 @@ section {
   color: #848484;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .about .content {
     padding-right: 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .about {
     text-align: center;
   }
@@ -1081,7 +1081,7 @@ section {
   margin: 0 2px;
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .team .member {
     margin-bottom: 110px;
   }
@@ -1326,7 +1326,7 @@ section {
   transform: rotate(180deg);
 }
 
-@media screen and (max-width: 575px) {
+@media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
